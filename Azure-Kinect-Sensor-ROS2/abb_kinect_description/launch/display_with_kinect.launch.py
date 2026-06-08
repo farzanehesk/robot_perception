@@ -1,3 +1,15 @@
+# ============================================================
+# Package:     abb_kinect_description
+# File:        display_with_kinect.launch.py
+# Description: Launch file to visualize ABB IRB6700 + Azure
+#              Kinect URDF geometry in RViz. Does NOT stream
+#              live camera data — use kinect_pointcloud_rviz
+#              launch for live data visualization.
+# Author:      Farzaneh Eskandari
+# Email:       farzane.eskandarii@gmail.com
+# Date:        2026-06-05
+# ============================================================
+
 import os
 from ament_index_python.packages import get_package_share_directory
 from launch import LaunchDescription
