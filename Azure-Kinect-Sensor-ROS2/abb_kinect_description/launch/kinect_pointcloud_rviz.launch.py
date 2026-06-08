@@ -1,3 +1,16 @@
+# ============================================================
+# Package:     abb_kinect_description
+# File:        kinect_pointcloud_rviz.launch.py
+# Description: Launches Azure Kinect driver + RViz with
+#              pre-configured PointCloud2 and RGB image
+#              displays for live 3D point cloud visualization.
+# Author:      Farzaneh Eskandari
+# Email:       farzane.eskandarii@gmail.com
+# Date:        2026-06-05
+# Usage:       ros2 launch abb_kinect_description kinect_pointcloud_rviz.launch.py
+# Requires:    Azure Kinect connected on USB3 SuperSpeed port
+# ============================================================
+
 import os
 from ament_index_python.packages import get_package_share_directory
 from launch import LaunchDescription
